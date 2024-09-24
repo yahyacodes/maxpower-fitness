@@ -4,9 +4,7 @@ import MaxPowerModernHero from "./Maxpower";
 const Feature = ({ title, description }) => (
   <div className="bg-gray-900 border-gray-800">
     <div>
-      <h1 className="text-xl font-semibold text-red-600">
-        {title}
-      </h1>
+      <h1 className="text-xl font-semibold text-red-600">{title}</h1>
     </div>
     <div>
       <p className="text-gray-300">{description}</p>
@@ -17,9 +15,7 @@ const Feature = ({ title, description }) => (
 const MaxPowerLandingPage = () => {
   return (
     <div className="bg-black text-white">
-      <MaxPowerModernHero />
-
-      {/* Features Section */}
+      <MaxPowerModernHero />a{/* Features Section */}
       <section className="py-20 bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-center mb-12">
@@ -41,7 +37,6 @@ const MaxPowerLandingPage = () => {
           </div>
         </div>
       </section>
-
       {/* CTA Section */}
       <section className="py-20 bg-red-600">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
@@ -57,7 +52,6 @@ const MaxPowerLandingPage = () => {
           </button>
         </div>
       </section>
-
       {/* Testimonials Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -89,7 +83,6 @@ const MaxPowerLandingPage = () => {
           </div>
         </div>
       </section>
-
       {/* Footer */}
       <footer className="bg-gray-900 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

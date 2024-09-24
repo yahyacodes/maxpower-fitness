@@ -1,68 +1,46 @@
-import React from "react";
-import { ChevronRight, Dumbbell } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 import Image from "next/image";
 
-const Navbar = () => {
+const Hero = () => {
   return (
-    <nav className="bg-black text-white py-4">
-      <div className="container mx-auto px-4 flex justify-between items-center">
-        <div className="flex items-center">
-          <Dumbbell className="text-red-600 mr-2" size={32} />
-          <span className="text-xl font-bold">Maxpower Fitness</span>
-        </div>
-        <div className="space-x-4">
-          <a href="#" className="hover:text-red-600 transition duration-300">
-            Home
-          </a>
-          <a href="#" className="hover:text-red-600 transition duration-300">
-            Classes
-          </a>
-          <a href="#" className="hover:text-red-600 transition duration-300">
-            Membership
-          </a>
-          <a href="#" className="hover:text-red-600 transition duration-300">
-            Contact
-          </a>
-        </div>
-      </div>
-    </nav>
-  );
-};
-
-const HeroSection = () => {
-  return (
-    <div className="bg-black text-white">
-      <Navbar />
-      <div className="container mx-auto px-4 py-16 sm:py-24 text-center">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl sm:text-7xl font-extrabold mb-6 leading-tight">
-            Unleash Your <span className="text-red-600">Power</span> at Maxpower
-            Fitness
+    <main className="container px-4 py-16 sm:py-24 lg:py-32 justify-between max-w-7xl">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-4">
+        <div className="mt-0 md:mt-24 z-20">
+          <h1 className="lg:text-6xl text-primary md:text-5xl text-3xl font-bold mb-4">
+            Shape Your Body, Shape Your Destiny.
           </h1>
-          <p className="text-xl mb-8">
-            Transform your body, elevate your mind, and achieve your fitness
-            goals with our state-of-the-art equipment and expert trainers.
+          <p className="text-customColor max-w-md mt-2 mb-4">
+            Our mission is to transform your health and fitness through
+            fundamental achievements, proving that even the smallest steps can
+            lead to significant results.
           </p>
-          <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-full inline-flex items-center transition duration-300 text-lg">
-            Start Your Journey
-            <ChevronRight className="ml-2" size={24} />
-          </button>
+          <div className="flex gap-4 mt-4">
+            <Button className="bg-secondary text-primary hover:bg-secondary/80">
+              Choose Your Course
+            </Button>
+          </div>
         </div>
-      </div>
-      <div className="container mx-auto px-4 pb-16">
         <div className="relative">
+          <div className="absolute top-0 right-[28rem] w-3/4 h-2/4 rounded-br-3xl bg-white z-10"></div>
           <Image
-            src="/api/placeholder/1200/600"
-            alt="Fitness equipment"
-            className="rounded-lg shadow-xl w-full"
-            width={1200}
-            height={600}
+            src="/assets/the-rock.jpg"
+            alt="Your Digital Banking"
+            className="w-full rounded-3xl"
+            quality={100}
+            width={800}
+            height={400}
           />
-          <div className="absolute inset-0 bg-red-600 opacity-20 rounded-lg"></div>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 
-export default HeroSection;
+export default Hero;
