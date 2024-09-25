@@ -10,8 +10,8 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-10">
-      <div className="container mx-auto px-4">
+    <footer className="container px-4 py-16 sm:py-24 lg:py-20 justify-between">
+      <div className="container mx-auto px-4 bg-gray-900 text-white py-16 rounded-3xl">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-lg font-semibold mb-4">Our Services</h3>

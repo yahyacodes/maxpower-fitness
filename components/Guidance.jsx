@@ -10,8 +10,8 @@ import Image from "next/image";
 
 const Guidance = () => {
   return (
-    <main className="py-20">
-      <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
+    <main className="container px-4 py-16 sm:py-24 lg:py-36 justify-between">
+      <div className="">
         <div className="grid grid-cols-2">
           <div className="mb-10 md:mb-0">
             <Image

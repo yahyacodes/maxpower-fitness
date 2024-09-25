@@ -10,7 +10,7 @@ import Image from "next/image";
 
 const Faqs = () => {
   return (
-    <main className="container mx-auto px-4 py-20">
+    <main className="container px-4 py-16 sm:py-24 lg:py-36 justify-between">
       <h2 className="text-4xl font-bold mb-10 text-center">
         Frequently Asked Questions
       </h2>

@@ -10,7 +10,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <main className="container px-4 py-16 sm:py-24 lg:py-32 justify-between max-w-7xl">
+    <main className="container px-4 py-16 sm:py-24 lg:py-48 justify-between max-w-7xl">
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-4">
         <div className="mt-0 md:mt-24 z-20">
           <h1 className="lg:text-6xl text-primary md:text-5xl text-3xl font-bold mb-4">
