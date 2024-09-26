@@ -101,14 +101,14 @@ const Pricing = () => {
               </ul>
             </div>
             <div className="p-4">
-              <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white">
+              <Button className="w-full bg-red-600 hover:bg-red-700 text-white">
                 Choose Plan
               </Button>
             </div>
           </div>
 
           {/* Premium Membership Card */}
-          <div className="bg-white rounded-lg shadow-lg overflow-hidden border-2 border-orange-500">
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden border-2 border-red-600">
             <div className="p-8">
               <h3 className="text-2xl font-semibold mb-4">
                 Three Months Membership
@@ -191,7 +191,7 @@ const Pricing = () => {
               </ul>
             </div>
             <div className="p-4">
-              <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white">
+              <Button className="w-full bg-red-600 hover:bg-red-700 text-white">
                 Choose Plan
               </Button>
             </div>
@@ -280,7 +280,7 @@ const Pricing = () => {
               </ul>
             </div>
             <div className="p-4">
-              <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white">
+              <Button className="w-full bg-red-600 hover:bg-red-700 text-white">
                 Request Personalized Plan
               </Button>
             </div>

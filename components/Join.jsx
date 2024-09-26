@@ -32,7 +32,7 @@ const Join = () => {
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
-              className="text-orange-500 mr-2"
+              className="text-red-600 mr-2"
             >
               <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
               <polyline points="22 4 12 14.01 9 11.01"></polyline>
@@ -50,14 +50,14 @@ const Join = () => {
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
-              className="text-orange-500 mr-2"
+              className="text-red-600 mr-2"
             >
               <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
               <polyline points="22 4 12 14.01 9 11.01"></polyline>
             </svg>
             <span>Specialized Programs</span>
           </div>
-          <Button className="mt-8 bg-orange-500 text-white hover:bg-orange-600">
+          <Button className="mt-8 bg-red-600 text-white hover:bg-red-700">
             Explore Our Courses
           </Button>
         </div>

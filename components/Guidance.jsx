@@ -33,7 +33,7 @@ const Guidance = () => {
             </p>
             <div className="space-y-4">
               <details open className="p-4 rounded-lg shadow-md">
-                <summary className="font-semibold cursor-pointer text-lg text-gray-800 hover:text-orange-500 transition-colors duration-200">
+                <summary className="font-semibold cursor-pointer text-lg text-gray-800 hover:text-red-700 transition-colors duration-200">
                   Expert Guidance
                 </summary>
                 <p className="mt-2 text-gray-600">
@@ -44,7 +44,7 @@ const Guidance = () => {
                 </p>
               </details>
               <details className="p-4 rounded-lg shadow-md">
-                <summary className="font-semibold cursor-pointer text-lg text-gray-800 hover:text-orange-500 transition-colors duration-200">
+                <summary className="font-semibold cursor-pointer text-lg text-gray-800 hover:text-red-700 transition-colors duration-200">
                   Cutting-Edge Facilities
                 </summary>
                 <p className="mt-2 text-gray-600">
@@ -55,7 +55,7 @@ const Guidance = () => {
                 </p>
               </details>
               <details className="p-4 rounded-lg shadow-md">
-                <summary className="font-semibold cursor-pointer text-lg text-gray-800 hover:text-orange-500 transition-colors duration-200">
+                <summary className="font-semibold cursor-pointer text-lg text-gray-800 hover:text-red-700 transition-colors duration-200">
                   Flexible Membership Options
                 </summary>
                 <p className="mt-2 text-gray-600">
@@ -66,7 +66,7 @@ const Guidance = () => {
                 </p>
               </details>
             </div>
-            <Button className="mt-8 bg-orange-500 text-white hover:bg-orange-600 transition-colors duration-200">
+            <Button className="mt-8 bg-red-600 text-white hover:bg-red-700 transition-colors duration-200">
               Explore Our Classes
             </Button>
           </div>
