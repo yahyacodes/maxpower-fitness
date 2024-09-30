@@ -1,24 +1,16 @@
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
-import Image from "next/image";
 
 const Pricing = () => {
   return (
-    <main className="py-20">
+    <main className="container px-4 py-16 sm:py-24 lg:py-48 justify-between">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold mb-10 text-center">
           Choose Your Fitness Journey
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Basic Membership Card */}
 
-          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div className="bg-white rounded-lg hover:shadow-lg overflow-hidden">
             <div className="p-8">
               <h3 className="text-2xl font-semibold mb-4">
                 One Month Membership
@@ -32,7 +24,7 @@ const Pricing = () => {
               <ul className="mb-8 space-y-2">
                 <li className="flex items-center">
                   <svg
-                    className="w-5 h-5 text-green-500 mr-2"
+                    className="w-5 h-5 text-red-600 mr-2"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -49,7 +41,7 @@ const Pricing = () => {
                 </li>
                 <li className="flex items-center">
                   <svg
-                    className="w-5 h-5 text-green-500 mr-2"
+                    className="w-5 h-5 text-red-600 mr-2"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -66,7 +58,7 @@ const Pricing = () => {
                 </li>
                 <li className="flex items-center">
                   <svg
-                    className="w-5 h-5 text-green-500 mr-2"
+                    className="w-5 h-5 text-red-600 mr-2"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -83,7 +75,7 @@ const Pricing = () => {
                 </li>
                 <li className="flex items-center">
                   <svg
-                    className="w-5 h-5 text-green-500 mr-2"
+                    className="w-5 h-5 text-red-600 mr-2"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -122,7 +114,7 @@ const Pricing = () => {
               <ul className="mb-8 space-y-2">
                 <li className="flex items-center">
                   <svg
-                    className="w-5 h-5 text-green-500 mr-2"
+                    className="w-5 h-5 text-red-600 mr-2"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -139,7 +131,7 @@ const Pricing = () => {
                 </li>
                 <li className="flex items-center">
                   <svg
-                    className="w-5 h-5 text-green-500 mr-2"
+                    className="w-5 h-5 text-red-600 mr-2"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -156,7 +148,7 @@ const Pricing = () => {
                 </li>
                 <li className="flex items-center">
                   <svg
-                    className="w-5 h-5 text-green-500 mr-2"
+                    className="w-5 h-5 text-red-600 mr-2"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -173,7 +165,7 @@ const Pricing = () => {
                 </li>
                 <li className="flex items-center">
                   <svg
-                    className="w-5 h-5 text-green-500 mr-2"
+                    className="w-5 h-5 text-red-600 mr-2"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -198,7 +190,7 @@ const Pricing = () => {
           </div>
 
           {/* Personalized Plan Card */}
-          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div className="bg-white rounded-lg hover:shadow-lg overflow-hidden">
             <div className="p-8">
               <h3 className="text-2xl font-semibold mb-4">Personalized Plan</h3>
               <p className="text-gray-600 mb-6">
@@ -211,7 +203,7 @@ const Pricing = () => {
               <ul className="mb-8 space-y-2">
                 <li className="flex items-center">
                   <svg
-                    className="w-5 h-5 text-green-500 mr-2"
+                    className="w-5 h-5 text-red-600 mr-2"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -228,7 +220,7 @@ const Pricing = () => {
                 </li>
                 <li className="flex items-center">
                   <svg
-                    className="w-5 h-5 text-green-500 mr-2"
+                    className="w-5 h-5 text-red-600 mr-2"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -245,7 +237,7 @@ const Pricing = () => {
                 </li>
                 <li className="flex items-center">
                   <svg
-                    className="w-5 h-5 text-green-500 mr-2"
+                    className="w-5 h-5 text-red-600 mr-2"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -262,7 +254,7 @@ const Pricing = () => {
                 </li>
                 <li className="flex items-center">
                   <svg
-                    className="w-5 h-5 text-green-500 mr-2"
+                    className="w-5 h-5 text-red-600 mr-2"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"

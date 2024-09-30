@@ -78,7 +78,10 @@ export default function Hero() {
             MaxPower Fitness. Join us and experience the power of premium
             equipment and expert guidance.
           </p>
-          <Button size="lg" className="text-lg px-8 py-3 bg-red-600 hover:bg-red-700">
+          <Button
+            size="lg"
+            className="text-lg px-8 py-3 bg-red-600 hover:bg-red-700"
+          >
             Start Your Journey
           </Button>
         </div>
